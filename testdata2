@@ -1,0 +1,57 @@
+{
+  "drivers": [
+    {
+      "id": 2,
+      "name": "Samantha Reed",
+      "contact": "samantha.reed@email.com",
+      "basePay": {
+        "id": 2,
+        "base_rate": 16.75,
+        "package_threshold": 45,
+        "extra_rate_per_package": 0.6
+      },
+      "routes": [
+        {
+          "id": 2,
+          "difficulty": "hard",
+          "stops": [
+            {
+              "id": 2,
+              "stop_type": "commercial",
+              "packages": [
+                {
+                  "date": "2024-04-06",
+                  "total_packages": 90
+                }
+              ]
+            }
+          ],
+          "timesTaken": [
+            {
+              "id": 2,
+              "date": "2024-04-06",
+              "totalTime": "06:30:00"
+            }
+          ]
+        }
+      ],
+      "performances": [
+        {
+          "id": 2,
+          "date": "2024-04-06",
+          "stops_completed": 15,
+          "packages_delivered": 90,
+          "time_efficiency": "excellent"
+        }
+      ],
+      "bonuses": [
+        {
+          "id": 2,
+          "date": "2024-04-06",
+          "reason": "Outstanding Customer Service",
+          "amount": 75.00
+        }
+      ]
+    }
+  ]
+}

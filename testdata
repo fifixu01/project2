@@ -1,0 +1,58 @@
+{
+    "drivers": [
+      {
+        "id": 1,
+        "name": "Alex Johnson",
+        "contact": "alex.johnson@email.com",
+        "basePay": {
+          "id": 1,
+          "base_rate": 15.00,
+          "package_threshold": 50,
+          "extra_rate_per_package": 0.5
+        },
+        "routes": [
+          {
+            "id": 1,
+            "difficulty": "moderate",
+            "stops": [
+              {
+                "id": 1,
+                "stop_type": "residential",
+                "packages": [
+                  {
+                    "date": "2024-04-06",
+                    "total_packages": 120
+                  }
+                ]
+              }
+            ],
+            "timesTaken": [
+              {
+                "id": 1,
+                "date": "2024-04-06",
+                "totalTime": "08:00:00"
+              }
+            ]
+          }
+        ],
+        "performances": [
+          {
+            "id": 1,
+            "date": "2024-04-06",
+            "stops_completed": 20,
+            "packages_delivered": 120,
+            "time_efficiency": "good"
+          }
+        ],
+        "bonuses": [
+          {
+            "id": 1,
+            "date": "2024-04-06",
+            "reason": "Excellent Time Efficiency",
+            "amount": 50.00
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,57 @@
+{
+  "drivers": [
+    {
+      "id": 3,
+      "name": "Michael Torres",
+      "contact": "michael.torres@email.com",
+      "basePay": {
+        "id": 3,
+        "base_rate": 17.50,
+        "package_threshold": 55,
+        "extra_rate_per_package": 0.7
+      },
+      "routes": [
+        {
+          "id": 3,
+          "difficulty": "easy",
+          "stops": [
+            {
+              "id": 3,
+              "stop_type": "residential",
+              "packages": [
+                {
+                  "date": "2024-04-06",
+                  "total_packages": 80
+                }
+              ]
+            }
+          ],
+          "timesTaken": [
+            {
+              "id": 3,
+              "date": "2024-04-06",
+              "totalTime": "07:00:00"
+            }
+          ]
+        }
+      ],
+      "performances": [
+        {
+          "id": 3,
+          "date": "2024-04-06",
+          "stops_completed": 18,
+          "packages_delivered": 80,
+          "time_efficiency": "very good"
+        }
+      ],
+      "bonuses": [
+        {
+          "id": 3,
+          "date": "2024-04-06",
+          "reason": "Perfect Attendance Record",
+          "amount": 60.00
+        }
+      ]
+    }
+  ]
+}
