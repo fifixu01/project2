@@ -1,0 +1,5 @@
+// Flipping the 'active' boolean attribute for a driver
+db.drivers.updateOne(
+  { "id": 3 },
+  { "$set": { "active": false } }
+) 

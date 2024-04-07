@@ -1,0 +1,15 @@
+// Using the aggregation framework to calculate the 
+//average number of packages delivered per stop for a specific driver
+
+db.drivers.aggregate([
+  { "$match": { "id": 1 } },
+  { "$unwind": "$routes" },
+  { "$unwind": "$routes.stops" },
+  { "$unwind": "$routes.stops.packages" },
+  {
+    "$group": {
+      "_id": "$routes.stops.id",
+      "averagePackages": { "$avg": "$routes.stops.packages.total_packages" }
+    }
+  }
+])

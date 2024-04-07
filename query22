@@ -1,0 +1,8 @@
+// Searching for drivers based on multiple criteria 
+db.drivers.find({ 
+  "$or": [
+    { "basePay.base_rate": { "$gt": 15.00 } },
+    { "routes.difficulty": "easy" },
+    { "performances.time_efficiency": { "$in": ["good", "excellent"] } }
+  ]
+}) 

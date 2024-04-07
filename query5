@@ -1,0 +1,6 @@
+// Retrieving the contact information for a specific driver
+db.drivers.find(
+  { "id": 1 },
+  { "contact": 1 }
+) 
+

@@ -1,0 +1,5 @@
+// deleting a stop
+db.drivers.updateOne(
+  { "id": 1, "routes.id": 1 },
+  { "$pull": { "routes.$.stops": { "id": 1 } } }
+)

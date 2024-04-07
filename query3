@@ -1,0 +1,5 @@
+// Counting the number of routes a specific 
+//driver has taken
+db.drivers.find({
+  "id": 2
+}).count()
